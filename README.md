@@ -97,21 +97,13 @@ The project uses multiple related datasets covering Shopify apps, categories, pr
 
 
 | Metric | Value |
-
 |---|---:|
-
 | Apps | 11,951 |
-
 | Developers | 7,615 |
-
 | Categories | 1,889 |
-
 | Customer Reviews | 1,133,555 |
-
 | Median Monthly Price | $19.99 |
-
 | Overall Developer Reply Rate | 28.37% |
-
 
 
 The raw data was audited, cleaned, transformed, and loaded into a relational SQL Server database before analysis.
@@ -341,21 +333,13 @@ Among classified one-star reviews, the largest complaint themes were:
 
 
 | Complaint Theme | Share of 1-Star Reviews |
-
 |---|---:|
-
 | Technical Issues | 29.19% |
-
 | Pricing / Billing | 26.60% |
-
 | Customer Support | 21.69% |
-
 | Negative Recommendation | 6.27% |
-
 | Time / Effort | 4.24% |
-
 | Usability | 1.36% |
-
 
 
 Technical reliability, pricing and billing, and customer support were the three most prominent recurring complaint areas identified by the classifier.
@@ -423,23 +407,14 @@ The final Opportunity Score uses the following weighted framework:
 
 
 | Factor | Weight |
-
 |---|---:|
-
 | Demand | 25% |
-
 | Competition | 20% |
-
 | Customer Gap | 20% |
-
 | Monetization | 15% |
-
 | Service Gap | 10% |
-
 | Pricing Pressure | 5% |
-
 | Market Concentration | 5% |
-
 
 
 After filtering for established categories, **616 categories** were evaluated.
@@ -459,19 +434,12 @@ Top scoring categories included:
 
 
 | Category | Opportunity Score |
-
 |---|---:|
-
 | AI Targeting | 60.97 |
-
 | Automated Campaigns | 60.02 |
-
 | AI Optimization | 58.33 |
-
 | SMS Campaigns | 58.26 |
-
 | ROI Analysis | 57.46 |
-
 
 
 Because Shopify's category taxonomy contains overlapping and differently granular categories, additional business screening was applied before selecting the final recommendations.
